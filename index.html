@@ -8,19 +8,19 @@
     <title>Traductor scout</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Traductor Scout</h1>
+    <h1 class="titulo">Traductor Scout</h1>
     <form id="contenedor-traductor" action="">
         <div class="contenedor botones-opciones"></div>
-        <div class="contenedor-labels">
+        <!-- <div class="contenedor-labels">
             <label>Encriptado</label>
             <label>Desencriptado</label>
-        </div>
+        </div> -->
         <div class="contenedor entrada-salida">
-            <textarea class="mensajero" name="mensaje-encriptado" rows="20" cols="4" id="mensaje-encriptado">
-            <textarea class="mensajero" name="mensaje-desencriptado" rows="20" cols="4" id="mensaje-desencriptado">
+            <textarea class="mensajero" id="mensaje-entrada"></textarea>
+            <div class="mensajero" id="mensaje-salida"></div>
         </div>
         <div class="contenedor-boton-traducir">
             <button class="boton-traducir">Traducir</button>
