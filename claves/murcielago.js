@@ -77,3 +77,5 @@ function murcielago_desencriptar(mensaje){
 
     return mensaje
 }
+
+export {murcielago_encriptar}
