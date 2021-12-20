@@ -29,19 +29,15 @@ body{
     border: none;
     border-radius: 20px;
     background: #eee;
-}
-
-#mensaje-entrada{
     resize: none;
+    color: #000;
 }
-
 #mensaje-entrada:focus{
     outline: none;
 }
 
-#mensaje-salida{
-    display: inline-block;
-    text-align: left;
+#mensaje-salida:disabled{
+    color: #000;
 }
 
 .contenedor-boton-traducir{
