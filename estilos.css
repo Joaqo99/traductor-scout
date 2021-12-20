@@ -39,6 +39,11 @@ body{
     outline: none;
 }
 
+#mensaje-salida{
+    display: inline-block;
+    text-align: left;
+}
+
 .contenedor-boton-traducir{
     display: flex;
     justify-content: center;

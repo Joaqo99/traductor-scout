@@ -8,6 +8,5 @@ let boton_traducir = document.querySelector(".boton-traducir")
 
 boton_traducir.addEventListener("click", ()=>{
     let mensaje = input.value
-    let salida = document.createTextNode(murcielago_encriptar(mensaje))
-    output.appendChild(salida)
+    output.textContent = murcielago_encriptar(mensaje)
 })
