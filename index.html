@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Traductor scout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 class="titulo">Traductor Scout</h1>
+    <form id="contenedor-traductor" action="">
+        <div class="contenedor botones-opciones"></div>
+        <!-- <div class="contenedor-labels">
+            <label>Encriptado</label>
+            <label>Desencriptado</label>
+        </div> -->
+        <div class="contenedor entrada-salida">
+            <textarea class="mensajero" id="mensaje-entrada"></textarea>
+            <textarea class="mensajero" id="mensaje-salida" disabled></textarea>
+        </div>
+        <div class="contenedor-boton-traducir">
+            <button class="boton-traducir" type="button">Traducir</button>
+        </div>
+    </form>
+    <script src="codigo.js" type="module"></script>
+</body>
+</html>

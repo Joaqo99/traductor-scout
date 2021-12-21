@@ -1,0 +1,55 @@
+body{
+    background: #ddd;
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+}
+
+.titulo{
+    color: #555;
+}
+
+#contenedor-traductor{
+    background: #394;
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 20px;
+    min-height: 400px;
+    box-shadow: 2px 2px 10px #999;
+    display: grid;
+    grid-template-rows: 50px 1fr 60px;
+}
+
+.mensajero{
+    display: inline-block;
+    margin: 10px;
+    width: 500px;
+    min-height: 300px;
+    flex-grow: 1;
+    border: none;
+    border-radius: 20px;
+    background: #eee;
+    resize: none;
+    color: #000;
+}
+#mensaje-entrada:focus{
+    outline: none;
+}
+
+#mensaje-salida:disabled{
+    color: #000;
+}
+
+.contenedor-boton-traducir{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.boton-traducir{
+    width: 100px;
+    border-radius: 100px;
+    border: none;
+    font-size: 20px;
+    background-color: #bbb
+}
