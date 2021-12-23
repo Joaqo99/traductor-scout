@@ -27,7 +27,7 @@ body{
     min-height: 300px;
     flex-grow: 1;
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     background: #eee;
     resize: none;
     color: #000;
