@@ -56,9 +56,9 @@ body{
 
 @media only screen and (max-width:600px) {
     .mensajero{
-        /*width: 250px;
-        min-height: 170px;
+        width: 250px;
+        min-height: 120px;
         margin: auto;
-        margin-top: 20;*/
+        margin-top: 20;
     }
 }
