@@ -23,7 +23,7 @@ body{
 .mensajero{
     display: inline-block;
     margin: 10px;
-    width: 450px;
+    width: 500px;
     min-height: 300px;
     flex-grow: 1;
     border: none;
@@ -56,8 +56,8 @@ body{
 
 @media only screen and (max-width:600px) {
     .mensajero{
-        width: 250px;
-        min-height: 120px;
+        width: 270px;
+        min-height: 150px;
         margin: auto;
         margin-top: 20;
     }
