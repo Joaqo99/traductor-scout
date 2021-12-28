@@ -55,10 +55,13 @@ body{
 }
 
 @media only screen and (max-width:600px) {
+    #contenedor-traductor{
+        min-height: 450px;
+    }
+
     .mensajero{
         width: 270px;
         min-height: 150px;
-        margin: auto;
-        margin-top: 20;
+        margin: auto 10;
     }
 }
