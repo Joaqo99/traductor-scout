@@ -62,5 +62,6 @@ body{
     .mensajero{
         width: 270px;
         min-height: 150px;
+        margin: 10px auto;
     }
 }
