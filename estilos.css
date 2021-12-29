@@ -20,6 +20,21 @@ body{
     grid-template-rows: 50px 1fr 60px;
 }
 
+.switch-encriptar{
+    width: 40px;
+    height: 20px;
+    background: #173;
+    border-radius: 15px;
+    padding: 2px;
+}
+
+.switch-encriptar > .circulo{
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+}
+
 .mensajero{
     display: inline-block;
     margin: 10px;
