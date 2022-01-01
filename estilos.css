@@ -20,6 +20,10 @@ body{
     grid-template-rows: 50px 1fr 60px;
 }
 
+.botones-opciones{
+    justify-content: center;
+}
+
 .switch-encriptar{
     width: 40px;
     height: 20px;
@@ -31,13 +35,21 @@ body{
 .switch-encriptar > .circulo{
     width: 20px;
     height: 20px;
-    background: #fff;
+    background: #999;
     border-radius: 50%;
+}
+
+.switch-encriptar > #encriptar{
+    display: none;
+}
+
+.switch-encriptar.active{
+
 }
 
 .mensajero{
     display: inline-block;
-    margin: 10px;
+    margin: auto 10px;
     width: 500px;
     min-height: 300px;
     flex-grow: 1;
