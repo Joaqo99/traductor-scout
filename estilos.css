@@ -24,31 +24,9 @@ body{
     display: flex;
 }
 
-/*.botones-opciones{
+.botones-opciones{
     justify-content: center;
-}*/
-
-.switch-encriptar{
-    width: 40px;
-    height: 20px;
-    background: #173;
-    border-radius: 15px;
-    padding: 2px;
-}
-
-.switch-encriptar > .circulo{
-    width: 20px;
-    height: 20px;
-    background: #999;
-    border-radius: 50%;
-}
-
-.switch-encriptar > #encriptar{
-    display: none;
-}
-
-.switch-encriptar.active{
-
+    align-items: center;
 }
 
 .mensajero{
