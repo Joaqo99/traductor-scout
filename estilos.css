@@ -20,9 +20,13 @@ body{
     grid-template-rows: 50px 1fr 60px;
 }
 
-.botones-opciones{
-    justify-content: center;
+.contenedor{
+    display: flex;
 }
+
+/*.botones-opciones{
+    justify-content: center;
+}*/
 
 .switch-encriptar{
     width: 40px;
@@ -92,6 +96,10 @@ body{
         min-height: 450px;
     }
 
+    .contenedor{
+        flex-wrap: wrap;
+    }
+    
     .mensajero{
         width: 270px;
         min-height: 150px;
