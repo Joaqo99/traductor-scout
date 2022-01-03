@@ -9,7 +9,7 @@ let boton_encriptar = document.getElementById("encriptar")
 
 boton_traducir.addEventListener("click", ()=>{
     let mensaje = input.value
-    if (boton_encriptar.value){
+    if (boton_encriptar.checked){
         output.textContent = murcielago_encriptar(mensaje)
     }else{
         output.textContent = murcielago_desencriptar(mensaje)

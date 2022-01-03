@@ -18,7 +18,7 @@ function murcielago_encriptar(mensaje){
 
 function murcielago_desencriptar(mensaje){
 
-    for (i of mensaje){
+    for (let i of mensaje){
         switch(i){
             case "0": 
                 mensaje = mensaje.replace(i, "m");
