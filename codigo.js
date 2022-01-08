@@ -11,6 +11,7 @@ let encriptar = boton_encriptar.checked
 
 boton_encriptar.addEventListener("onChange", ()=>{
     encriptar = !encriptar
+    console.log("cambio de estado")
 })
 
 boton_traducir.addEventListener("click", ()=>{
