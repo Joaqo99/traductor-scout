@@ -10,15 +10,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1 class="titulo">Traductor Scout</h1>
     <form id="contenedor-traductor" action="">
-        <div class="contenedor botones-opciones"></div>
-        <!-- <div class="contenedor-labels">
-            <label>Encriptado</label>
-            <label>Desencriptado</label>
-        </div> -->
+        <div class="contenedor botones-opciones">
+            <label for="encriptar" class="etiqueta-desencriptar etiqueta-active-des">DESENCRIPTAR</label>
+            <input type="checkbox" id="encriptar" name="encriptar">
+            <label for="encriptar" class="etiqueta-encriptar">ENCRIPTAR</label>
+        </div>
         <div class="contenedor entrada-salida">
             <textarea class="mensajero" id="mensaje-entrada"></textarea>
             <textarea class="mensajero" id="mensaje-salida" disabled></textarea>
