@@ -37,7 +37,7 @@ body{
     background: #741;
     outline: none;
     border-radius: 15px;
-    transition: .4s;
+    transition: .3s;
     box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
 }
 
@@ -56,7 +56,7 @@ body{
     background: #eee;
     transform: scale(1.1);
     box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
-    transition: .4s;
+    transition: .3s;
 
 }
 
@@ -64,6 +64,35 @@ body{
     left: 25px;
 
 }
+
+.etiqueta-desencriptar{
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bolder;
+    color: #999;
+    transition: .3s;
+    margin-right: 10px;
+}
+
+.etiqueta-active-des{
+    color: #741;
+    text-decoration: underline;
+}
+
+.etiqueta-encriptar{
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bolder;
+    color: #999;
+    transition: .3s;
+    margin-left: 10px;
+}
+
+.etiqueta-active-en{
+    color: #ff0;
+    text-decoration: underline;
+}
+
 
 .mensajero{
     display: inline-block;
