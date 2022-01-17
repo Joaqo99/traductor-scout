@@ -29,6 +29,16 @@ body{
     align-items: center;
 }
 
+#clave{
+    margin-right: 5em;
+    background: none;
+    border-style: none;
+}
+
+.etiqueta-clave{
+    margin-right: 5px;
+}
+
 #encriptar{
     position: relative;
     width: 50px;
