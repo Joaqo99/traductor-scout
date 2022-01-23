@@ -55,3 +55,5 @@ function paquidermo_desencriptar(mensaje){
 
     return mensaje
 }
+
+export {paquidermo_encriptar, paquidermo_desencriptar}
