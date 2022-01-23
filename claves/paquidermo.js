@@ -1,6 +1,6 @@
 function paquidermo_encriptar(mensaje){
 
-    for (i of mensaje){
+    for (let i of mensaje){
         if (i == "p" || i == "P"){mensaje = mensaje.replace(i, "0");} 
         if (i == "a" || i == "A" || i == "á" || i == "Á"){mensaje = mensaje.replace(i, "1");} 
         if (i == "q" || i == "Q"){mensaje = mensaje.replace(i, "2");} 
@@ -18,7 +18,7 @@ function paquidermo_encriptar(mensaje){
 
 function paquidermo_desencriptar(mensaje){
 
-    for (i of mensaje){
+    for (let i of mensaje){
         switch(i){
             case "0": 
                 mensaje = mensaje.replace(i, "p");
@@ -55,3 +55,5 @@ function paquidermo_desencriptar(mensaje){
 
     return mensaje
 }
+
+export {paquidermo_encriptar, paquidermo_desencriptar}
