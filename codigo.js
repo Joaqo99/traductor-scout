@@ -1,5 +1,5 @@
 import {murcielago_encriptar, murcielago_desencriptar} from "./claves/murcielago.js"
-import {paquidermo_encriptar, paquidermo_desencriptar} from "./claves/paquidermo"
+import {paquidermo_encriptar, paquidermo_desencriptar} from "./claves/paquidermo.js"
 
 let input = document.getElementById("mensaje-entrada")
 let output = document.getElementById("mensaje-salida")
@@ -24,10 +24,29 @@ boton_encriptar.addEventListener("change", ()=>{
 })
 
 boton_traducir.addEventListener("click", ()=>{
+    let seleccion_clave = document.getElementById("clave").value
     let mensaje = input.value
     if (encriptar){
-        output.textContent = murcielago_encriptar(mensaje)
+        switch(seleccion_clave){
+            case "murcielago":
+                output.textContent = murcielago_encriptar(mensaje)
+                break
+
+            case "paquidermo":
+                output.textContent = paquidermo_encriptar(mensaje)
+                break
+            }
+
     }else{
-        output.textContent = murcielago_desencriptar(mensaje)
+        switch(seleccion_clave){
+            case "murcielago":
+                output.textContent = murcielago_desencriptar(mensaje)
+                break
+
+            case "paquidermo":
+                output.textContent = paquidermo_desencriptar(mensaje)
+                break
+            }
+
     }
 })
